@@ -16,7 +16,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@4.1.4
-          with:
-            branch: master
-            folder: public
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: master
+          folder: public
