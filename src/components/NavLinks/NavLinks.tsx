@@ -9,7 +9,7 @@ export function NavLinks() {
             <ActiveLink route='/'>Home</ActiveLink>
             <ActiveLink route='/about'>About</ActiveLink>
             <ActiveLink route='/projects'>Projects</ActiveLink>
-            <ActiveLink route='/musings'>Musings</ActiveLink>
+            <ActiveLink route='/blog'>Blog</ActiveLink>
         </nav>
     )
 }
