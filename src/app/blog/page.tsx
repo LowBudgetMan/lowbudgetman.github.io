@@ -1,3 +1,3 @@
-export default function Musings() {
-    return <main><h1>Musings</h1></main>
+export default function Blog() {
+    return <main><h1>Ramblings</h1></main>
 }
