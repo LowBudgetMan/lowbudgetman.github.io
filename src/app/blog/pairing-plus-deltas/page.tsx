@@ -20,7 +20,7 @@ export default function PairingPlusDeltas() {
                     </p>
                     
                     <p className={styles.paragraph}>
-                        Through my experiences with pair programming, I've observed several key benefits:
+                        Through my experiences with pair programming, I&apos;ve observed several key benefits:
                     </p>
                     
                     <ul style={{ marginBottom: '1.5rem', paddingLeft: '1.5rem' }}>
@@ -69,7 +69,7 @@ export default function PairingPlusDeltas() {
                     <p className={styles.paragraph}>
                         Pair programming creates an environment where knowledge is constantly shared between team members. 
                         Junior developers learn from seniors, while experienced developers gain fresh perspectives from 
-                        newer team members. This cross-pollination of ideas and techniques elevates the entire team's 
+                        newer team members. This cross-pollination of ideas and techniques elevates the entire team&apos;s
                         skill level over time.
                     </p>
                     
@@ -84,7 +84,7 @@ export default function PairingPlusDeltas() {
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '600' }}>4. Reduced Technical Debt</h3>
                     
                     <p className={styles.paragraph}>
-                        The accountability that comes with pair programming often prevents shortcuts and "quick fixes" 
+                        The accountability that comes with pair programming often prevents shortcuts and &quot;quick fixes&quot;
                         that can accumulate as technical debt. Developers are more likely to implement proper solutions 
                         when working together, as they must explain and justify their approach to their partner.
                     </p>

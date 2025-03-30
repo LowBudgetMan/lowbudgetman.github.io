@@ -16,21 +16,21 @@ export default function Blog() {
                     <p className={styles.blogDate}>March 15, 2025</p>
                     <p className={styles.paragraph}>
                         Team names in organizations function similarly to stock tickers in many ways. They should be memorable, 
-                        consistent, and represent value changes over time to stakeholders. A good team name sticks in people's 
-                        minds and becomes a shorthand for the team's purpose and contributions.
+                        consistent, and represent value changes over time to stakeholders. A good team name sticks in people&apos;s
+                        minds and becomes a shorthand for the team&apos;s purpose and contributions.
                     </p>
                     <p className={styles.paragraph}>
                         When choosing a team name, consider these key principles:
                     </p>
                     <ul style={{ marginBottom: '1.5rem', paddingLeft: '1.5rem' }}>
-                        <li>Memorability: Choose something that's easy to remember and reference</li>
+                        <li>Memorability: Choose something that&apos;s easy to remember and reference</li>
                         <li>Consistency: Once established, avoid changing the name frequently</li>
-                        <li>Representativeness: The name should reflect the team's purpose or domain</li>
-                        <li>Distinctiveness: Ensure it's not easily confused with other teams</li>
+                        <li>Representativeness: The name should reflect the team&apos;s purpose or domain</li>
+                        <li>Distinctiveness: Ensure it&apos;s not easily confused with other teams</li>
                     </ul>
                     <p className={styles.paragraph}>
                         Just as stock tickers provide a quick reference for investors, team names offer a shorthand for 
-                        organizational communication. They become part of the company's internal language and culture.
+                        organizational communication. They become part of the company&apos;s internal language and culture.
                     </p>
                     <Link href="/blog/team-names-are-like-stock-tickers" className={`${styles.button} ${styles.primaryButton}`}>
                         Read Full Article
@@ -46,7 +46,7 @@ export default function Blog() {
                         each line of code as it is typed in. The two programmers switch roles frequently.
                     </p>
                     <p className={styles.paragraph}>
-                        Through my experiences with pair programming, I've observed several key benefits:
+                        Through my experiences with pair programming, I&apos;ve observed several key benefits:
                     </p>
                     <ul style={{ marginBottom: '1.5rem', paddingLeft: '1.5rem' }}>
                         <li>Improved code quality through real-time code review</li>
@@ -99,7 +99,7 @@ export default function Blog() {
                     <p className={styles.paragraph}>
                         Continuous Integration and Continuous Deployment (CI/CD) have become standard practices in modern 
                         software development. At the heart of effective CI/CD pipelines lies automated testing, which ensures 
-                        that code changes don't introduce regressions or new bugs.
+                        that code changes don&apos;t introduce regressions or new bugs.
                     </p>
                     <p className={styles.paragraph}>
                         A comprehensive testing strategy should include:
@@ -113,7 +113,7 @@ export default function Blog() {
                     </ul>
                     <p className={styles.paragraph}>
                         Investing in automated testing pays dividends through increased confidence in deployments, 
-                        faster release cycles, and improved code quality. It's not just about catching bugs—it's about 
+                        faster release cycles, and improved code quality. It&apos;s not just about catching bugs—it&apos;s about
                         enabling your team to move faster with greater confidence.
                     </p>
                     <Link href="/blog/automated-testing-cicd" className={`${styles.button} ${styles.primaryButton}`}>

@@ -15,8 +15,8 @@ export default function TeamNamesAreStockTickers() {
                 <section className={styles.section}>
                     <p className={styles.paragraph}>
                         Team names in organizations function similarly to stock tickers in many ways. They should be memorable, 
-                        consistent, and represent value changes over time to stakeholders. A good team name sticks in people's 
-                        minds and becomes a shorthand for the team's purpose and contributions.
+                        consistent, and represent value changes over time to stakeholders. A good team name sticks in people&apos;s
+                        minds and becomes a shorthand for the team&apos;s purpose and contributions.
                     </p>
                     
                     <p className={styles.paragraph}>
@@ -24,15 +24,15 @@ export default function TeamNamesAreStockTickers() {
                     </p>
                     
                     <ul style={{ marginBottom: '1.5rem', paddingLeft: '1.5rem' }}>
-                        <li>Memorability: Choose something that's easy to remember and reference</li>
+                        <li>Memorability: Choose something that&apos;s easy to remember and reference</li>
                         <li>Consistency: Once established, avoid changing the name frequently</li>
-                        <li>Representativeness: The name should reflect the team's purpose or domain</li>
-                        <li>Distinctiveness: Ensure it's not easily confused with other teams</li>
+                        <li>Representativeness: The name should reflect the team&apos;s purpose or domain</li>
+                        <li>Distinctiveness: Ensure it&apos;s not easily confused with other teams</li>
                     </ul>
                     
                     <p className={styles.paragraph}>
                         Just as stock tickers provide a quick reference for investors, team names offer a shorthand for 
-                        organizational communication. They become part of the company's internal language and culture.
+                        organizational communication. They become part of the company&apos;s internal language and culture.
                     </p>
                     
                     <h2 className={styles.sectionTitle}>Why Team Names Matter</h2>
@@ -49,7 +49,7 @@ export default function TeamNamesAreStockTickers() {
                     </ol>
                     
                     <p className={styles.paragraph}>
-                        The best team names become part of the organizational vocabulary and culture. They're used in 
+                        The best team names become part of the organizational vocabulary and culture. They&apos;re used in
                         conversations, presentations, and planning sessions without requiring explanation.
                     </p>
                     
@@ -63,9 +63,9 @@ export default function TeamNamesAreStockTickers() {
                         <li><strong>Keep it simple:</strong> Avoid complex or lengthy names that are hard to remember</li>
                         <li><strong>Ensure pronounceability:</strong> Names should be easy to say in conversation</li>
                         <li><strong>Consider acronyms:</strong> If using multiple words, check if the acronym works well</li>
-                        <li><strong>Test for uniqueness:</strong> Verify the name isn't too similar to existing teams</li>
-                        <li><strong>Align with purpose:</strong> The name should reflect the team's function or domain</li>
-                        <li><strong>Don't change:</strong> Once established, maintain consistency to avoid confusion</li>
+                        <li><strong>Test for uniqueness:</strong> Verify the name isn&apos;t too similar to existing teams</li>
+                        <li><strong>Align with purpose:</strong> The name should reflect the team&apos;s function or domain</li>
+                        <li><strong>Don&apos;t change:</strong> Once established, maintain consistency to avoid confusion</li>
                     </ul>
                     
                     <p className={styles.paragraph}>

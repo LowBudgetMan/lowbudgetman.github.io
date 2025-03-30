@@ -78,7 +78,7 @@ export default function MicroservicesVsMonoliths() {
                     <ul style={{ marginBottom: '1.5rem', paddingLeft: '1.5rem' }}>
                         <li><strong>Scalability:</strong> Services can be scaled independently based on demand</li>
                         <li><strong>Technology Diversity:</strong> Different services can use different technologies as needed</li>
-                        <li><strong>Resilience:</strong> Failures in one service don't necessarily affect others</li>
+                        <li><strong>Resilience:</strong> Failures in one service don&apos;t necessarily affect others</li>
                         <li><strong>Deployment Flexibility:</strong> Services can be updated independently with less risk</li>
                         <li><strong>Team Autonomy:</strong> Different teams can own different services with minimal coordination</li>
                     </ul>
@@ -96,7 +96,7 @@ export default function MicroservicesVsMonoliths() {
                     <h2 className={styles.sectionTitle}>Finding the Right Balance</h2>
                     
                     <p className={styles.paragraph}>
-                        The choice between monoliths and microservices isn't binary. Many successful organizations use a 
+                        The choice between monoliths and microservices isn&apos;t binary. Many successful organizations use a
                         spectrum of approaches based on their specific needs. Here are some factors to consider when making 
                         your architectural decisions:
                     </p>
@@ -106,7 +106,7 @@ export default function MicroservicesVsMonoliths() {
                     <p className={styles.paragraph}>
                         Smaller teams often benefit from the simplicity of monoliths, while larger organizations with multiple 
                         teams may find microservices provide better autonomy and parallel development capabilities. Consider 
-                        your team's size, experience level, and how they're organized.
+                        your team&apos;s size, experience level, and how they&apos;re organized.
                     </p>
                     
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '600' }}>2. Project Complexity and Scale</h3>
@@ -154,7 +154,7 @@ export default function MicroservicesVsMonoliths() {
                     
                     <p className={styles.paragraph}>
                         With a modular monolith, you can start simple and evolve toward microservices as needed, extracting 
-                        services when there's a clear benefit to doing so.
+                        services when there&apos;s a clear benefit to doing so.
                     </p>
                     
                     <h2 className={styles.sectionTitle}>Conclusion</h2>

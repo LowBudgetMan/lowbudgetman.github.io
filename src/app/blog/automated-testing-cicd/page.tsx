@@ -16,7 +16,7 @@ export default function AutomatedTestingCICD() {
                     <p className={styles.paragraph}>
                         Continuous Integration and Continuous Deployment (CI/CD) have become standard practices in modern 
                         software development. At the heart of effective CI/CD pipelines lies automated testing, which ensures 
-                        that code changes don't introduce regressions or new bugs.
+                        that code changes don&apos;t introduce regressions or new bugs.
                     </p>
                     
                     <p className={styles.paragraph}>
@@ -33,7 +33,7 @@ export default function AutomatedTestingCICD() {
                     
                     <p className={styles.paragraph}>
                         Investing in automated testing pays dividends through increased confidence in deployments, 
-                        faster release cycles, and improved code quality. It's not just about catching bugs—it's about 
+                        faster release cycles, and improved code quality. It&apos;s not just about catching bugs—it&apos;s about
                         enabling your team to move faster with greater confidence.
                     </p>
                     
@@ -68,7 +68,7 @@ export default function AutomatedTestingCICD() {
                     <ul style={{ marginBottom: '1.5rem', paddingLeft: '1.5rem' }}>
                         <li><strong>Fast:</strong> Typically execute in milliseconds</li>
                         <li><strong>Focused:</strong> Test a single unit of functionality</li>
-                        <li><strong>Isolated:</strong> Don't depend on external systems or state</li>
+                        <li><strong>Isolated:</strong> Don&apos;t depend on external systems or state</li>
                         <li><strong>Numerous:</strong> Often comprise 70-80% of your test suite</li>
                     </ul>
                     
@@ -169,7 +169,7 @@ export default function AutomatedTestingCICD() {
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: '600' }}>3. Improved Code Quality</h3>
                     
                     <p className={styles.paragraph}>
-                        The discipline of writing testable code often leads to better architecture and design. Code that's 
+                        The discipline of writing testable code often leads to better architecture and design. Code that&apos;s
                         easy to test tends to be more modular, have clearer interfaces, and follow better separation of concerns.
                     </p>
                     
@@ -219,7 +219,7 @@ export default function AutomatedTestingCICD() {
                     <h2 className={styles.sectionTitle}>Conclusion</h2>
                     
                     <p className={styles.paragraph}>
-                        Automated testing is not just a quality assurance activity—it's a fundamental enabler of CI/CD and 
+                        Automated testing is not just a quality assurance activity—it&apos;s a fundamental enabler of CI/CD and
                         modern software development practices. By investing in a comprehensive, well-designed testing strategy, 
                         teams can deliver higher-quality software more frequently and with greater confidence.
                     </p>

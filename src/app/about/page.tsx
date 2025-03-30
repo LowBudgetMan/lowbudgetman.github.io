@@ -1,7 +1,4 @@
-import GitHubLink from "@/components/Logos/GitHubLink";
-import LinkedInLink from "@/components/Logos/LinkedInLink";
 import styles from '../shared.module.css';
-import Image from 'next/image';
 
 export default function About() {
     return (
@@ -12,14 +9,14 @@ export default function About() {
                 <div className={styles.flexRow}>
                     <div className={styles.flexColumn} style={{ flex: '2' }}>
                         <p className={styles.paragraph}>
-                            I&apos;m a <strong>software engineer</strong>, <strong>product architect</strong>, and <strong>tinkerer</strong> who 
+                            I&apos;m a <strong>software engineer</strong>, <strong>product architect</strong>, and <strong>tinkerer</strong> who
                             has been heavily invested in the agile mindset since I joined the workforce in 2016. I specialize
                             in quality, extensible code developed fast mainly in the web space. I&apos;m a fullstack engineer with the most
                             experience in React SPAs and Spring Boot REST APIs.
                         </p>
                         <p className={styles.paragraph}>
                             My journey in software engineering began with a fascination for solving complex problems and creating 
-                            intuitive user experiences. Over the years, I've developed a deep appreciation for clean code, 
+                            intuitive user experiences. Over the years, I&apos;ve developed a deep appreciation for clean code,
                             thoughtful architecture, and collaborative development practices.
                         </p>
                     </div>
@@ -87,12 +84,12 @@ export default function About() {
             <section className={styles.section}>
                 <h2 className={styles.sectionTitle}>Personal Interests</h2>
                 <p className={styles.paragraph}>
-                    When I'm not coding, you can find me hiking in the mountains, experimenting with new cooking recipes,
-                    or contributing to open-source projects. I'm also an avid reader of technical books and blogs, 
+                    When I&apos;m not coding, you can find me hiking in the mountains, experimenting with new cooking recipes,
+                    or contributing to open-source projects. I&apos;m also an avid reader of technical books and blogs,
                     constantly seeking to expand my knowledge and skills in the ever-evolving tech landscape.
                 </p>
                 <p className={styles.paragraph}>
-                    I believe in the power of technology to solve real-world problems and improve people's lives. 
+                    I believe in the power of technology to solve real-world problems and improve people&apos;s lives.
                     This belief drives my passion for creating software that is not only functional but also 
                     accessible, intuitive, and enjoyable to use.
                 </p>
