@@ -20,5 +20,5 @@ export function NavLinks() {
 
 export function ActiveLink({route, activeStyle, children}: Readonly<{ route: string, activeStyle: string, children: React.ReactNode }>) {
     const pathname = usePathname()
-    return <Link className={`${navStyles.link} ${pathname === route ? activeStyle : ''}`} href={route}>{children}</Link>
+    return <Link className={`${navStyles.link} ${(pathname.includes(route) && route !== '/') || pathname === route ? activeStyle : ''}`} href={route}>{children}</Link>
 }
