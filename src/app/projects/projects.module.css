@@ -1,0 +1,31 @@
+.cardTitle {
+    composes: cardTitle from "../shared.module.css";
+}
+
+.projectCard:hover .cardTitle {
+    color: var(--projects);
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.projectLinks {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.projectLink:hover {
+    color: var(--projects);
+}
+
+@media (max-width: 800px) {
+    .cardTitle {
+        color: var(--projects);
+    }
+}

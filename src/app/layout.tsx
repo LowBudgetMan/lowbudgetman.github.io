@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import {NavLinks} from "@/components/NavLinks/NavLinks";
+import { NavLinks } from "@/components/NavLinks/NavLinks";
+import Footer from "@/components/Footer/Footer";
 
 const geistSans = localFont({
   src: "../resources/fonts/GeistVF.woff", // TODO: Replace with non-relative link if possible (like imports can be defined by typescript maybe?)
@@ -26,12 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body className={`${geistSans.variable} ${geistMono.variable}`}>
-      <header>
-        <NavLinks/>
-      </header>
-      {children}
-    </body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <header>
+          <NavLinks />
+        </header>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
