@@ -24,7 +24,7 @@ export default function About() {
             </section>
             
             <section className={styles.section}>
-                <h2 className={styles.sectionTitle}>Professional Experience</h2>
+                <h2 className={`${styles.sectionTitle} ${styles.about}`}>Professional Experience</h2>
                 
                 <div className={styles.card}>
                     <h3 className={styles.cardTitle}>Senior Software Engineer</h3>
@@ -59,7 +59,7 @@ export default function About() {
             </section>
             
             <section className={styles.section}>
-                <h2 className={styles.sectionTitle}>Education & Certifications</h2>
+                <h2 className={`${styles.sectionTitle} ${styles.about}`}>Education & Certifications</h2>
                 
                 <div className={styles.card}>
                     <h3 className={styles.cardTitle}>Bachelor of Science in Computer Science</h3>
@@ -82,7 +82,7 @@ export default function About() {
             </section>
 
             <section className={styles.section}>
-                <h2 className={styles.sectionTitle}>Personal Interests</h2>
+                <h2 className={`${styles.sectionTitle} ${styles.about}`}>Personal Interests</h2>
                 <p className={styles.paragraph}>
                     When I&apos;m not coding, you can find me hiking in the mountains, experimenting with new cooking recipes,
                     or contributing to open-source projects. I&apos;m also an avid reader of technical books and blogs,

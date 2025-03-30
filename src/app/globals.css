@@ -53,6 +53,17 @@ body {
   scroll-behavior: smooth;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--background);
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color var(--transition-speed) ease;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -61,6 +72,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
   font-size: 16px;
+  padding-top: 5rem; /* Add padding to account for fixed header */
 }
 
 * {
@@ -136,6 +148,10 @@ hr {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+  
+  header {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
 }
 

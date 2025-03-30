@@ -9,7 +9,7 @@ export default function TeamNamesAreStockTickers() {
             </Link>
             
             <article>
-                <h1 className={styles.pageTitle}>Team Names Are Like Stock Tickers</h1>
+                <h1 className={`${styles.pageTitle} ${styles.blog}`}>Team Names Are Like Stock Tickers</h1>
                 <p className={styles.blogDate}>March 15, 2025</p>
                 
                 <section className={styles.section}>

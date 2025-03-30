@@ -9,7 +9,7 @@ export default function PairingPlusDeltas() {
             </Link>
             
             <article>
-                <h1 className={styles.pageTitle}>The Benefits of Pair Programming</h1>
+                <h1 className={`${styles.pageTitle} ${styles.blog}`}>The Benefits of Pair Programming</h1>
                 <p className={styles.blogDate}>February 28, 2025</p>
                 
                 <section className={styles.section}>

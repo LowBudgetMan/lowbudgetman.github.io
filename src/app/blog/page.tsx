@@ -12,7 +12,7 @@ export default function Blog() {
             
             <section className={styles.section}>
                 <article className={styles.blogPost}>
-                    <h2 className={styles.cardTitle}>Team Names Are Like Stock Tickers</h2>
+                    <h2 className={`${styles.cardTitle} ${styles.blog}`}>Team Names Are Like Stock Tickers</h2>
                     <p className={styles.blogDate}>March 15, 2025</p>
                     <p className={styles.paragraph}>
                         Team names in organizations function similarly to stock tickers in many ways. They should be memorable, 
@@ -32,13 +32,13 @@ export default function Blog() {
                         Just as stock tickers provide a quick reference for investors, team names offer a shorthand for 
                         organizational communication. They become part of the company&apos;s internal language and culture.
                     </p>
-                    <Link href="/blog/team-names-are-like-stock-tickers" className={`${styles.button} ${styles.primaryButton}`}>
+                    <Link href="/blog/team-names-are-like-stock-tickers" className={`${styles.button} ${styles.secondaryButton}`}>
                         Read Full Article
                     </Link>
                 </article>
                 
                 <article className={styles.blogPost}>
-                    <h2 className={styles.cardTitle}>The Benefits of Pair Programming</h2>
+                    <h2 className={`${styles.cardTitle} ${styles.blog}`}>The Benefits of Pair Programming</h2>
                     <p className={styles.blogDate}>February 28, 2025</p>
                     <p className={styles.paragraph}>
                         Pair programming is a software development technique where two programmers work together at one 
@@ -60,13 +60,13 @@ export default function Blog() {
                         outweigh the initial time investment. Teams that practice pair programming regularly often 
                         report higher overall productivity and code quality.
                     </p>
-                    <Link href="/blog/pairing-plus-deltas" className={`${styles.button} ${styles.primaryButton}`}>
+                    <Link href="/blog/pairing-plus-deltas" className={`${styles.button} ${styles.secondaryButton}`}>
                         Read Full Article
                     </Link>
                 </article>
                 
                 <article className={styles.blogPost}>
-                    <h2 className={styles.cardTitle}>Microservices vs. Monoliths: Finding the Right Balance</h2>
+                    <h2 className={`${styles.cardTitle} ${styles.blog}`}>Microservices vs. Monoliths: Finding the Right Balance</h2>
                     <p className={styles.blogDate}>January 15, 2025</p>
                     <p className={styles.paragraph}>
                         The debate between microservices and monolithic architectures continues to be a hot topic in 
@@ -88,13 +88,13 @@ export default function Blog() {
                         starting with a modular monolith and gradually extracting microservices as needed. The key is to 
                         align your architecture with your business needs and team capabilities.
                     </p>
-                    <Link href="/blog/microservices-vs-monoliths" className={`${styles.button} ${styles.primaryButton}`}>
+                    <Link href="/blog/microservices-vs-monoliths" className={`${styles.button} ${styles.secondaryButton}`}>
                         Read Full Article
                     </Link>
                 </article>
                 
                 <article className={styles.blogPost}>
-                    <h2 className={styles.cardTitle}>The Importance of Automated Testing in CI/CD Pipelines</h2>
+                    <h2 className={`${styles.cardTitle} ${styles.blog}`}>The Importance of Automated Testing in CI/CD Pipelines</h2>
                     <p className={styles.blogDate}>December 10, 2024</p>
                     <p className={styles.paragraph}>
                         Continuous Integration and Continuous Deployment (CI/CD) have become standard practices in modern 
@@ -116,7 +116,7 @@ export default function Blog() {
                         faster release cycles, and improved code quality. It&apos;s not just about catching bugs—it&apos;s about
                         enabling your team to move faster with greater confidence.
                     </p>
-                    <Link href="/blog/automated-testing-cicd" className={`${styles.button} ${styles.primaryButton}`}>
+                    <Link href="/blog/automated-testing-cicd" className={`${styles.button} ${styles.secondaryButton}`}>
                         Read Full Article
                     </Link>
                 </article>

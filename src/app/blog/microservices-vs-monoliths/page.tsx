@@ -9,7 +9,7 @@ export default function MicroservicesVsMonoliths() {
             </Link>
             
             <article>
-                <h1 className={styles.pageTitle}>Microservices vs. Monoliths: Finding the Right Balance</h1>
+                <h1 className={`${styles.pageTitle} ${styles.blog}`}>Microservices vs. Monoliths: Finding the Right Balance</h1>
                 <p className={styles.blogDate}>January 15, 2025</p>
                 
                 <section className={styles.section}>

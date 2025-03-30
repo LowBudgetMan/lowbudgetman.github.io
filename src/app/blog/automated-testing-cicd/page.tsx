@@ -9,7 +9,7 @@ export default function AutomatedTestingCICD() {
             </Link>
             
             <article>
-                <h1 className={styles.pageTitle}>The Importance of Automated Testing in CI/CD Pipelines</h1>
+                <h1 className={`${styles.pageTitle} ${styles.blog}`}>The Importance of Automated Testing in CI/CD Pipelines</h1>
                 <p className={styles.blogDate}>December 10, 2024</p>
                 
                 <section className={styles.section}>

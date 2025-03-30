@@ -27,7 +27,7 @@ export default function Home() {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Featured Skills</h2>
+        <h2 className={`${styles.sectionTitle} ${styles.about}`}>Featured Skills</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <h3 className={styles.cardTitle}>Frontend Development</h3>
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Latest Blog Posts</h2>
+        <h2 className={`${styles.sectionTitle} ${styles.blog}`}>Latest Blog Posts</h2>
         <div className={styles.flexColumn}>
           <div className={styles.card}>
             <h3 className={styles.cardTitle}>Team Names Are Like Stock Tickers</h3>
