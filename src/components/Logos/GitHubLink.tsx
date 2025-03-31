@@ -12,7 +12,7 @@ export default function GitHubLink() {
 
     return (
         <>
-            <Link href="https://github.com/LowBudgetMan/">
+            <Link href="https://github.com/LowBudgetMan/" target={"_blank"}>
                 <Image 
                     src={isDarkMode ? githubIconWhite : githubIconDark} 
                     width={LogoWidth} 

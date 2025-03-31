@@ -27,7 +27,8 @@ export default function Projects() {
                             {project.links.map((link, linkIndex) => (
                                 <a 
                                     key={linkIndex} 
-                                    href={link.url} 
+                                    href={link.url}
+                                    target="_blank"
                                     className={`${projectStyles.projectLink} ${styles.button} ${styles.secondaryButton}`}
                                 >
                                     {link.name}

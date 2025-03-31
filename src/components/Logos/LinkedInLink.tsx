@@ -12,7 +12,7 @@ export default function LinkedInLink() {
 
     return (
         <>
-            <Link href="https://www.linkedin.com/in/nick-reuter-79a0a7103/">
+            <Link href="https://www.linkedin.com/in/nick-reuter-79a0a7103/" target={"_blank"}>
                 <Image 
                     src={isDarkMode ? linkedInIconWhite : linkedInIconBlue} 
                     width={LogoWidth} 

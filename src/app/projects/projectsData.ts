@@ -1,7 +1,7 @@
 export interface Project {
     title: string;
     description: string;
-    skills: string[];
+    skills: Skills[];
     links: Link[];
 }
 
@@ -10,58 +10,39 @@ export interface Link {
     url: string;
 }
 
+export type Skills = 'React' | 'Java' | 'TypeScript' | 'Spring Boot' | "WebSockets" | "MongoDB" | "Angular" | 'C++' | 'Arduino' | 'Node.js' | 'SQL' | 'PostgreSQL' | 'GraphQL' | 'AWS' | 'RFID' | 'CSS' | 'HTML' | 'REST API';
+
 export const projects: Project[] = [
     {
-        title: "E-Commerce Platform",
-        description: "A full-featured e-commerce platform built with React, Node.js, and MongoDB. Implemented features including product catalog, shopping cart, user authentication, payment processing, and order management.",
-        skills: ["React", "Node.js", "MongoDB", "Stripe API"],
+        title: "HungryMoose",
+        description: "A set of libraries that use the same YAML request/response objects to both generate documentation and run as End-to-End API tests for Spring Boot RESTful API projects.",
+        skills: ["Spring Boot", "Java", "HTML", "CSS", "REST API"],
         links: [
-            {name: 'Demo', url: '#'},
-            {name: 'GitHub', url: '#'}
+            {name: 'GitHub', url: 'https://github.com/FordLabs/hungrymoose'}
         ]
     },
     {
-        title: "Task Management App",
-        description: "A collaborative task management application with real-time updates using WebSockets. Features include task creation, assignment, status tracking, due dates, and team collaboration tools.",
-        skills: ["TypeScript", "React", "Spring Boot", "WebSockets"],
+        title: "RetroQuest",
+        description: "A remote retrospective tool to help facilitate Retros for dispersed teams.",
+        skills: ["TypeScript", "React", "Spring Boot", "WebSockets", "Java", "SQL"],
         links: [
-            {name: 'Demo', url: '#'},
-            {name: 'GitHub', url: '#'}
+            {name: 'GitHub', url: 'https://github.com/FordLabs/retroquest'}
         ]
     },
     {
-        title: "Health Tracking Dashboard",
-        description: "A comprehensive health metrics dashboard for visualizing and analyzing personal health data. Integrates with various fitness APIs and devices to provide insights and progress tracking.",
-        skills: ["React", "D3.js", "Express", "OAuth"],
+        title: "PeopleMover",
+        description: "People allocation tool used to help facilitate movement of people between engagements based on preference.",
+        skills: ["React", "TypeScript", "Spring Boot", "Java", "SQL"],
         links: [
-            {name: 'Demo', url: '#'},
-            {name: 'GitHub', url: '#'}
+            {name: 'GitHub', url: 'https://github.com/FordLabs/peoplemover'},
         ]
     },
     {
-        title: "Content Management System",
-        description: "A custom CMS built for a media company to manage digital content across multiple platforms. Features include content creation, scheduling, approval workflows, and analytics.",
-        skills: ["Next.js", "GraphQL", "PostgreSQL", "AWS"],
+        title: "MagicBand Reader",
+        description: "An Arduino project that mimics the basics of the Walt Disney World MagicBand readers. Using a MiFARE read and write module to read the MagicBands and Disney RFID room card DesFIRE chips.",
+        skills: ["C++", "Arduino", "RFID"],
         links: [
-            {name: 'Case Study', url: '#'},
-        ]
-    },
-    {
-        title: "Real-time Chat Application",
-        description: "A secure messaging platform with end-to-end encryption, file sharing, and group chat capabilities. Implemented with a microservices architecture for scalability.",
-        skills: ["React", "Socket.io", "Node.js", "Redis"],
-        links: [
-            {name: 'Demo', url: '#'},
-            {name: 'GitHub', url: '#'}
-        ]
-    },
-    {
-        title: "Personal Finance Tracker",
-        description: "An application for tracking personal finances, including expense categorization, budget planning, financial goal setting, and visualization of spending patterns.",
-        skills: ["Vue.js", "Firebase", "Chart.js", "Plaid API"],
-        links: [
-            {name: 'Demo', url: '#'},
-            {name: 'GitHub', url: '#'}
+            {name: 'GitHub', url: 'https://github.com/LowBudgetMan/MagicBand'}
         ]
     }
 ];
