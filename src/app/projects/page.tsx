@@ -7,8 +7,8 @@ export default function Projects() {
         <main className={styles.container}>
             <h1 className={`${styles.pageTitle} ${styles.projects}`}>Projects</h1>
             <p className={styles.paragraph}>
-                Here are some of the key projects I&apos;ve worked on throughout my career. Each project represents
-                a unique challenge and learning opportunity that has helped shape my skills and approach to software development.
+                Here are some of the projects I&apos;ve been lucky enough to work on. Each one represents the challenges, teams, and techniques
+                that have helped me grow and learn. If you have the time, please check them out!
             </p>
             
             <div className={styles.grid}>
@@ -38,13 +38,6 @@ export default function Projects() {
                     </div>
                 ))}
             </div>
-            
-            <section className={styles.section}>
-                <h2 className={`${styles.sectionTitle} ${styles.projects}`}>Open Source Contributions</h2>
-                <p className={styles.paragraph}>
-                    --
-                </p>
-            </section>
         </main>
     );
 }

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from '../app/shared.module.css';
 import homeStyles from './home.module.css';
+import { featuredProjects } from './projects/projectsData';
 
 export default function Home() {
   return (
@@ -73,50 +74,19 @@ export default function Home() {
         <section className={styles.section}>
           <h2 className={`${styles.sectionTitle} ${styles.projects}`}>Featured Projects</h2>
           <div className={styles.grid}>
-            <div className={styles.card}>
-              <h3 className={styles.cardTitle}>HungryMoose</h3>
-              <p className={styles.cardContent}>
-                A set of libraries that use the same YAML request/response objects to both generate documentation and
-                run as End-to-End API tests for Spring Boot RESTful API projects.
-              </p>
-              <div className={styles.skillsList}>
-                <span className={styles.tag}>Spring Boot</span>
-                <span className={styles.tag}>Java</span>
-                <span className={styles.tag}>HTML</span>
-                <span className={styles.tag}>CSS</span>
-                <span className={styles.tag}>REST API</span>
+            {featuredProjects.map((project, index) => (
+              <div key={index} className={styles.card}>
+                <h3 className={styles.cardTitle}>{project.title}</h3>
+                <p className={styles.cardContent}>
+                  {project.description}
+                </p>
+                <div className={styles.skillsList}>
+                  {project.skills.map((skill, skillIndex) => (
+                    <span key={skillIndex} className={styles.tag}>{skill}</span>
+                  ))}
+                </div>
               </div>
-            </div>
-
-            <div className={styles.card}>
-              <h3 className={styles.cardTitle}>RetroQuest</h3>
-              <p className={styles.cardContent}>
-                A remote retrospective tool to help facilitate Retros for dispersed teams.
-              </p>
-              <div className={styles.skillsList}>
-                <span className={styles.tag}>React</span>
-                <span className={styles.tag}>TypeScript</span>
-                <span className={styles.tag}>Spring Boot</span>
-                <span className={styles.tag}>WebSockets</span>
-                <span className={styles.tag}>Java</span>
-                <span className={styles.tag}>SQL</span>
-              </div>
-            </div>
-
-            <div className={styles.card}>
-              <h3 className={styles.cardTitle}>PeopleMover</h3>
-              <p className={styles.cardContent}>
-                People allocation tool used to help facilitate movement of people between engagements based on
-                preference.
-              </p>
-              <div className={styles.skillsList}>
-                <span className={styles.tag}>React</span>
-                <span className={styles.tag}>TypeScript</span>
-                <span className={styles.tag}>Spring Boot</span>
-                <span className={styles.tag}>Java</span>
-                <span className={styles.tag}>SQL</span>
-              </div>
-            </div>
+            ))}
           </div>
         </section>
 

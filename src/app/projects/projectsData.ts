@@ -77,4 +77,4 @@ export const projects: Project[] = [
     }
 ];
 
-export const featuredProjects: Project[] = [projects[2], projects[4]];
+export const featuredProjects: Project[] = [projects[2], projects[4], projects[0]];
