@@ -1,4 +1,5 @@
 import styles from '../shared.module.css';
+import aboutStyles from './about.module.css';
 
 export default function About() {
     return (
@@ -22,65 +23,84 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            
             <section className={styles.section}>
                 <h2 className={`${styles.sectionTitle} ${styles.about}`}>Professional Experience</h2>
-                
                 <div className={styles.card}>
                     <h3 className={styles.cardTitle}>Senior Software Engineer</h3>
-                    <p className={styles.cardMeta}>Tech Company Inc. | 2020 - Present</p>
-                    <p className={styles.cardContent}>
-                        Leading development of scalable web applications using React, TypeScript, and Spring Boot. 
-                        Architecting microservices and mentoring junior developers. Implementing CI/CD pipelines and 
-                        improving code quality through automated testing.
-                    </p>
+                    <p className={styles.cardMeta}>WillowTree LLC, Charlottesville, VA (Remote) | May 2022 - Present</p>
+                    <ul className={`${styles.cardContent} ${aboutStyles.jobDetails}`}>
+                        <li>Worked as an embedded fullstack engineer on a client engagement while teaching best practices like Test Driven Development and helping reduce the number of bugs while delivering a high number of features quickly.</li>
+                        <li>Collaborated closely with the mobile team to develop the best API design for their use during a tight timeframe, speeding up delivery through consistency and predictability and increasing collaboration between design, product, and engineering.</li>
+                        <li>Onboarded new engineers fast during a twofold increase in engineering team size while meeting an important client deadline.</li>
+                        <li>Designed SDKs for the client’s new Auth Server that significantly simplified interactions with the service for other teams.</li>
+                        <li>Worked with client architecture to improve solutions and reduce scope for feature delivery with heavy time / budget constraints.</li>
+                        <li>Implemented a mix of OAuth 2.1 standards and client requests for a custom client Auth Server to replace existing solution.</li>
+                        <li>Adjusted industry standards to meet client ways of working when limited by pre-established patterns and hierarchy, maximizing value added while minimizing disruption to existing processes.</li>
+                    </ul>
                     <div className={styles.skillsList}>
-                        <span className={styles.tag}>React</span>
-                        <span className={styles.tag}>TypeScript</span>
-                        <span className={styles.tag}>Spring Boot</span>
-                        <span className={styles.tag}>Microservices</span>
+                        <span className={styles.tag}>Fullstack</span>
+                        <span className={styles.tag}>TDD</span>
+                        <span className={styles.tag}>API Design</span>
+                        <span className={styles.tag}>Auth Server</span>
+                        <span className={styles.tag}>OAuth 2.1</span>
+                        <span className={styles.tag}>SDK Development</span>
                     </div>
                 </div>
-                
                 <div className={styles.card}>
                     <h3 className={styles.cardTitle}>Software Engineer</h3>
-                    <p className={styles.cardMeta}>Digital Solutions Ltd. | 2016 - 2020</p>
-                    <p className={styles.cardContent}>
-                        Developed and maintained web applications for various clients. Collaborated in agile teams 
-                        to deliver high-quality software solutions. Implemented responsive designs and RESTful APIs.
-                    </p>
+                    <p className={styles.cardMeta}>Ford Motor Company - FordLabs, Ann Arbor, MI | January 2018 - May 2022</p>
+                    <ul className={`${styles.cardContent} ${aboutStyles.jobDetails}`}>
+                        <li>Worked on many consumer facing fullstack products built in three month increments. Each increment was built around getting a product in front of a user as quick as possible and measuring the response to determine next steps using Lean Startup and eXtreme Programming practices.</li>
+                        <li>Developed in pairs using Test-Driven Development and other extreme programming practices to ensure peak delivery speed while maintaining quality code.</li>
+                        <li>Wrote and maintained an open source remote retrospective tool built on a Spring Boot backend and Angular frontend to streamline internal company agile processes.</li>
+                        <li>Implemented public facing used car website to aggregate dealer listings and make shopping for a used car easier through the use of guaranteed features on vehicles and filtering based on one or two “most important” categories. Built on an Angular2 frontend, a Spring Boot backend, and using AWS infrastructure.</li>
+                        <li>Built a React Native app on Android and iOS for drivers to use while testing goods delivery with autonomous vehicles.</li>
+                        <li>Mentored junior engineers while pairing and presented informative talks during weekly Lunch-and-Learn sessions.</li>
+                        <li>Performed phase II candidate interviews involving a test related to paired programming and TDD in the style of Pivotal Labs’s Repeatable Programming Assessment.</li>
+                        <li>Implemented each team’s CI/CD pipeline and deployment strategy, including GitHub actions/Jenkins pipelines, blue-green deployments, application performance metric monitoring and interpretation, PCF workspaces / AWS VPCs, and artifact-based deployments.</li>
+                    </ul>
                     <div className={styles.skillsList}>
-                        <span className={styles.tag}>JavaScript</span>
-                        <span className={styles.tag}>Java</span>
-                        <span className={styles.tag}>REST APIs</span>
+                        <span className={styles.tag}>Spring Boot</span>
+                        <span className={styles.tag}>Angular</span>
+                        <span className={styles.tag}>React Native</span>
+                        <span className={styles.tag}>AWS</span>
+                        <span className={styles.tag}>CI/CD</span>
+                        <span className={styles.tag}>TDD</span>
                         <span className={styles.tag}>Agile</span>
                     </div>
                 </div>
-            </section>
-            
-            <section className={styles.section}>
-                <h2 className={`${styles.sectionTitle} ${styles.about}`}>Education & Certifications</h2>
-                
                 <div className={styles.card}>
-                    <h3 className={styles.cardTitle}>Bachelor of Science in Computer Science</h3>
-                    <p className={styles.cardMeta}>University of Technology | 2012 - 2016</p>
-                    <p className={styles.cardContent}>
-                        Graduated with honors. Focused on software engineering, algorithms, and web development.
-                    </p>
-                </div>
-
-                <div className={styles.card}>
-                    <h3 className={styles.cardTitle}>Certifications</h3>
-                    <div className={styles.cardContent}>
-                        <ul style={{ listStylePosition: 'inside', marginBottom: '1rem' }}>
-                            <li>AWS Certified Developer - Associate</li>
-                            <li>Professional Scrum Master I (PSM I)</li>
-                            <li>Oracle Certified Professional, Java SE 11 Developer</li>
-                        </ul>
+                    <h3 className={styles.cardTitle}>Software Engineer</h3>
+                    <p className={styles.cardMeta}>Ford Motor Company, Dearborn, MI | June 2016 - January 2018</p>
+                    <ul className={`${styles.cardContent} ${aboutStyles.jobDetails}`}>
+                        <li>Built and maintained high throughput multiple microservice system and rules engine responsible for customizing/configuring and ordering Ford vehicles.</li>
+                        <li>Contributed to large codebase using Spring Boot REST API and MS SQL Server.</li>
+                        <li>Developed in a five pair environment where each pair was working off of main thanks to the support of robust testing pipelines and zero downtime deployments.</li>
+                        <li>Maintained microservice architecture to enable high availability and opportunistic scaling while keeping average transaction time below our SLA of 250ms.</li>
+                        <li>Implemented metrics and monitoring to quickly spot defects and outages.</li>
+                        <li>Added new functionality based on stakeholder prioritization using Agile methodologies.</li>
+                        <li>Set up nightly automated load testing and a set of continuous “canary” tests to verify system readiness and integrity.</li>
+                    </ul>
+                    <div className={styles.skillsList}>
+                        <span className={styles.tag}>Microservices</span>
+                        <span className={styles.tag}>Spring Boot</span>
+                        <span className={styles.tag}>REST API</span>
+                        <span className={styles.tag}>MS SQL Server</span>
+                        <span className={styles.tag}>Agile</span>
+                        <span className={styles.tag}>Monitoring</span>
                     </div>
                 </div>
             </section>
-
+            <section className={styles.section}>
+                <h2 className={`${styles.sectionTitle} ${styles.about}`}>Education & Certifications</h2>
+                <div className={styles.card}>
+                    <h3 className={styles.cardTitle}>Bachelors of Engineering in Computer Science</h3>
+                    <p className={styles.cardMeta}>Michigan State University | September&nbsp;2013 - May&nbsp;2016</p>
+                    <p className={styles.cardContent}>
+                        Graduated with a 3.53 GPA and a cognate focused on Business.
+                    </p>
+                </div>
+            </section>
             <section className={styles.section}>
                 <h2 className={`${styles.sectionTitle} ${styles.about}`}>Personal Interests</h2>
                 <p className={styles.paragraph}>
