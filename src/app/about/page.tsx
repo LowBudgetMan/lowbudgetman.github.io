@@ -38,12 +38,11 @@ export default function About() {
                         <li>Adjusted industry standards to meet client ways of working when limited by pre-established patterns and hierarchy, maximizing value added while minimizing disruption to existing processes.</li>
                     </ul>
                     <div className={styles.skillsList}>
-                        <span className={styles.tag}>Fullstack</span>
                         <span className={styles.tag}>TDD</span>
                         <span className={styles.tag}>API Design</span>
-                        <span className={styles.tag}>Auth Server</span>
-                        <span className={styles.tag}>OAuth 2.1</span>
                         <span className={styles.tag}>SDK Development</span>
+                        <span className={styles.tag}>CI/CD</span>
+                        <span className={styles.tag}>Monitoring</span>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -60,13 +59,13 @@ export default function About() {
                         <li>Implemented each team’s CI/CD pipeline and deployment strategy, including GitHub actions/Jenkins pipelines, blue-green deployments, application performance metric monitoring and interpretation, PCF workspaces / AWS VPCs, and artifact-based deployments.</li>
                     </ul>
                     <div className={styles.skillsList}>
-                        <span className={styles.tag}>Spring Boot</span>
-                        <span className={styles.tag}>Angular</span>
-                        <span className={styles.tag}>React Native</span>
-                        <span className={styles.tag}>AWS</span>
-                        <span className={styles.tag}>CI/CD</span>
-                        <span className={styles.tag}>TDD</span>
+                        <span className={styles.tag}>eXtreme Programming</span>
+                        <span className={styles.tag}>Lean Startup</span>
+                        <span className={styles.tag}>Human Centered Design</span>
+                        <span className={styles.tag}>Fullstack</span>
                         <span className={styles.tag}>Agile</span>
+                        <span className={styles.tag}>CI/CD</span>
+                        <span className={styles.tag}>Monitoring</span>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -82,10 +81,8 @@ export default function About() {
                         <li>Set up nightly automated load testing and a set of continuous “canary” tests to verify system readiness and integrity.</li>
                     </ul>
                     <div className={styles.skillsList}>
+                        <span className={styles.tag}>API Design</span>
                         <span className={styles.tag}>Microservices</span>
-                        <span className={styles.tag}>Spring Boot</span>
-                        <span className={styles.tag}>REST API</span>
-                        <span className={styles.tag}>MS SQL Server</span>
                         <span className={styles.tag}>Agile</span>
                         <span className={styles.tag}>Monitoring</span>
                     </div>

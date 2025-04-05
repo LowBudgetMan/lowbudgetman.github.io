@@ -10,7 +10,7 @@ export interface Link {
     url: string;
 }
 
-export type Skills = 'React' | 'Java' | 'TypeScript' | 'Spring Boot' | "WebSockets" | "MongoDB" | "Angular" | 'C++' | 'Arduino' | 'Node.js' | 'SQL' | 'PostgreSQL' | 'GraphQL' | 'AWS' | 'RFID' | 'CSS' | 'HTML' | 'REST API' | 'Kotlin' | "Microservices";
+export type Skills = 'React' | 'Java' | 'TypeScript' | 'Spring Boot' | "WebSockets" | "MongoDB" | "Angular" | 'C++' | 'Arduino' | 'Node.js' | 'SQL' | 'PostgreSQL' | 'GraphQL' | 'AWS' | 'RFID' | 'CSS' | 'HTML' | 'REST API' | 'Kotlin' | "Microservices" | "API Design" | "SDK Development" | "TDD" | "Fullstack" | "Agile Methodologies" | "eXtreme Programming" | "Lean Startup Methodologies" | "Monitoring" | "React Native" | "CI/CD" | "Cloud Foundry" | "MS SQL Server";
 
 export const projects: Project[] = [
     {
