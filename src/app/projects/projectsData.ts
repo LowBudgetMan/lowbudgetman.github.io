@@ -10,7 +10,16 @@ export interface Link {
     url: string;
 }
 
-export type Skills = 'React' | 'Java' | 'TypeScript' | 'Spring Boot' | "WebSockets" | "MongoDB" | "Angular" | 'C++' | 'Arduino' | 'Node.js' | 'SQL' | 'PostgreSQL' | 'GraphQL' | 'AWS' | 'RFID' | 'CSS' | 'HTML' | 'REST API' | 'Kotlin' | "Microservices" | "API Design" | "SDK Development" | "TDD" | "Fullstack" | "Agile Methodologies" | "eXtreme Programming" | "Lean Startup Methodologies" | "Monitoring" | "React Native" | "CI/CD" | "Cloud Foundry" | "MS SQL Server";
+export const ALL_SKILLS = [
+    "Agile Methodologies", "Angular", "API Design", "Arduino", "AWS", "C++", 
+    "CI/CD", "Cloud Foundry", "CSS", "eXtreme Programming", "Fullstack", 
+    "GraphQL", "HTML", "Java", "Kotlin", "Lean Startup Methodologies", 
+    "Microservices", "MongoDB", "Monitoring", "MS SQL Server", "Node.js", 
+    "PostgreSQL", "React", "React Native", "REST API", "RFID", "SDK Development", 
+    "Spring Boot", "SQL", "TDD", "TypeScript", "WebSockets"
+] as const;
+
+export type Skills = typeof ALL_SKILLS[number];
 
 export const projects: Project[] = [
     {
