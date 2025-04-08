@@ -11,20 +11,22 @@ export default function About() {
                 <div className={styles.flexRow}>
                     <div className={styles.flexColumn} style={{flex: '2'}}>
                         <p className={styles.paragraph}>
-                            I&apos;m a <strong>software engineer</strong>, <strong>product architect</strong>,
-                            and <strong>tinkerer</strong> who
-                            has been heavily invested in the agile mindset since I joined the workforce in 2016. I
-                            specialize
-                            in quality, extensible code developed fast mainly in the web space. I&apos;m a fullstack
-                            engineer with the most
-                            experience in React SPAs and Spring Boot REST APIs.
+                            My journey in software engineering began with a fascination for solving complex problems, enjoying the process like solving a puzzle, and
+                            creating useful user experiences, across all types of interfaces. Over the years, I&apos;ve developed a deep appreciation for
+                            clean code, thoughtful architecture, and collaborative development practices. Since finishing college and launching into the industry in 2016,
+                            I&apos;ve been fortunate enough to have many great mentors and be heavily involved with practitioners of the agile mindset. This strong influence
+                            is what drives much of the way I write software.
                         </p>
                         <p className={styles.paragraph}>
-                            My journey in software engineering began with a fascination for solving complex problems and
-                            creating
-                            intuitive user experiences. Over the years, I&apos;ve developed a deep appreciation for
-                            clean code,
-                            thoughtful architecture, and collaborative development practices.
+                            As for the why I write software, I love solving problems and making peoples&apos; lives better. The low barrier to entry helps it feel like something
+                            can come from almost nothing with the right magical incantation. I love that so many things can be built to enhance people&apos;s lives from the
+                            mundane to the meaningful. I don&apos;t want to create tech for the sake of making it, I want the things I do to improve lives even if just a tiny amount.
+                            I endeavor to do things like digitize workflows because it will improve the quality of the experience of the people using them, not just because I can.
+
+                        </p>
+                        <p className={styles.paragraph}>
+                            All that is to say, I specialize in quality, extensible code developed fast mainly in the web space. I&apos;m a fullstack engineer with the most experience
+                            in React SPAs and Spring Boot REST APIs. I hope you find the things I&apos;ve built to be useful, and the things I say to be helpful.
                         </p>
                     </div>
                 </div>
@@ -162,20 +164,20 @@ export default function About() {
                     </p>
                 </div>
             </section>
-            <section className={styles.section}>
-                <h2 className={`${styles.sectionTitle} ${styles.about}`}>Personal Interests</h2>
-                <p className={styles.paragraph}>
-                    When I&apos;m not coding, you can find me hiking in the mountains, experimenting with new cooking
-                    recipes,
-                    or contributing to open-source projects. I&apos;m also an avid reader of technical books and blogs,
-                    constantly seeking to expand my knowledge and skills in the ever-evolving tech landscape.
-                </p>
-                <p className={styles.paragraph}>
-                    I believe in the power of technology to solve real-world problems and improve people&apos;s lives.
-                    This belief drives my passion for creating software that is not only functional but also
-                    accessible, intuitive, and enjoyable to use.
-                </p>
-            </section>
+            {/*<section className={styles.section}>*/}
+            {/*    <h2 className={`${styles.sectionTitle} ${styles.about}`}>Personal Interests</h2>*/}
+            {/*    <p className={styles.paragraph}>*/}
+            {/*        When I&apos;m not coding, you can find me hiking in the mountains, experimenting with new cooking*/}
+            {/*        recipes,*/}
+            {/*        or contributing to open-source projects. I&apos;m also an avid reader of technical books and blogs,*/}
+            {/*        constantly seeking to expand my knowledge and skills in the ever-evolving tech landscape.*/}
+            {/*    </p>*/}
+            {/*    <p className={styles.paragraph}>*/}
+            {/*        I believe in the power of technology to solve real-world problems and improve people&apos;s lives.*/}
+            {/*        This belief drives my passion for creating software that is not only functional but also*/}
+            {/*        accessible, intuitive, and enjoyable to use.*/}
+            {/*    </p>*/}
+            {/*</section>*/}
         </main>
     );
 }
