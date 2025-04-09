@@ -9,12 +9,11 @@ export default function Home() {
         <section className={styles.section}>
           <div className={styles.flexColumn}>
             <h1 className={`${styles.pageTitle} ${styles.home}`}>Nick Reuter</h1>
-            <h2 className={`${styles.sectionTitle} ${homeStyles.tagline}`}><span>Software Engineer</span><span>Product Architect</span><span>Tinkerer</span>
+            <h2 className={`${styles.sectionTitle} ${homeStyles.tagline}`}>
+              <span>Software Engineer</span><span>Tinkerer</span><span>Architect of Whimsy</span>
             </h2>
             <p className={styles.paragraph}>
-              Welcome to my personal website! I&apos;m a passionate software engineer specializing in
-              creating quality, extensible code with a focus on web technologies. With expertise in
-              React SPAs and Spring Boot REST APIs, I bring a fullstack perspective to every project.
+              &quot;Ah, hello! Do come in and stay a while, I&apos;ve just put some water on. I&apos;ve had some thoughts that you might find... rather interesting.&quot;
             </p>
             <div className={`${styles.flexRow} ${homeStyles.homePageLinks}`}>
               <Link href="/about" className={`${styles.button} ${styles.secondaryButton}`}>
