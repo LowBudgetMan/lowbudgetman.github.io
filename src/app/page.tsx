@@ -31,42 +31,28 @@ export default function Home() {
           <h2 className={`${styles.sectionTitle} ${styles.about}`}>Featured Skills</h2>
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h3 className={styles.cardTitle}>Frontend Development</h3>
+              <h3 className={styles.cardTitle}>Extreme Programming (XP)</h3>
               <p className={styles.cardContent}>
-                Building responsive, accessible, and performant user interfaces using modern frameworks and best
-                practices.
+                Style of software development heavily rooted in agile software development principles that emphasizes high-quality software, rapid response to changing
+                requirements, and a focus on the development team&apos;s quality of life.
               </p>
-              <div className={styles.skillsList}>
-                <span className={styles.tag}>React</span>
-                <span className={styles.tag}>TypeScript</span>
-                <span className={styles.tag}>CSS Modules</span>
-              </div>
             </div>
 
             <div className={styles.card}>
-              <h3 className={styles.cardTitle}>Backend Development</h3>
+              <h3 className={styles.cardTitle}>Fullstack Engineering</h3>
               <p className={styles.cardContent}>
-                Designing and implementing robust APIs and services with a focus on scalability and maintainability.
+                Engineering across all cross-sections of the tech stack. Acting as a generalist learning where needed, enabling
+                the development of complete applications from start to finish.
               </p>
-              <div className={styles.skillsList}>
-                <span className={styles.tag}>Spring Boot</span>
-                <span className={styles.tag}>Java</span>
-                <span className={styles.tag}>SQL</span>
-                <span className={styles.tag}>RESTful APIs</span>
-              </div>
             </div>
 
             <div className={styles.card}>
-              <h3 className={styles.cardTitle}>Product Architecture</h3>
+              <h3 className={styles.cardTitle}>Lean Startup Methodologies</h3>
               <p className={styles.cardContent}>
-                Translating business requirements into technical solutions with a focus on long-term sustainability.
+                Emphasizes validated learning through short feedback loops to quickly test and iterate on
+                business ideas by creating a minimum viable product (MVP) and gathering customer feedback to minimize
+                waste and maximize efficacy.
               </p>
-              <div className={styles.skillsList}>
-                <span className={styles.tag}>System Design</span>
-                <span className={styles.tag}>Microservices</span>
-                <span className={styles.tag}>API Design</span>
-                <span className={styles.tag}>Technical Leadership</span>
-              </div>
             </div>
           </div>
         </section>
