@@ -16,7 +16,7 @@ export default function Home() {
               creating quality, extensible code with a focus on web technologies. With expertise in
               React SPAs and Spring Boot REST APIs, I bring a fullstack perspective to every project.
             </p>
-            <div className={styles.flexRow}>
+            <div className={`${styles.flexRow} ${homeStyles.homePageLinks}`}>
               <Link href="/about" className={`${styles.button} ${styles.secondaryButton}`}>
                 Learn More About Me
               </Link>

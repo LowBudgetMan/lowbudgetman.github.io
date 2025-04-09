@@ -8,4 +8,8 @@
     .tagline {
         flex-direction: row;
     }
+
+    .homePageLinks {
+        margin-bottom: 3rem;
+    }
 }
