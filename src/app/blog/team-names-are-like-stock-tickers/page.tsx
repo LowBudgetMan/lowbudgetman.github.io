@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import styles from '../../shared.module.css';
+import {blogPreview} from "@/app/blog/team-names-are-like-stock-tickers/blogPreview";
+import {formatDate} from "@/DateDisplayService";
 
 export default function TeamNamesAreStockTickers() {
     return (
@@ -9,8 +11,8 @@ export default function TeamNamesAreStockTickers() {
             </Link>
             
             <article>
-                <h1 className={`${styles.pageTitle} ${styles.blog}`}>Team Names Are Like Stock Tickers</h1>
-                <p className={styles.blogDate}>March 15, 2025</p>
+                <h1 className={`${styles.pageTitle} ${styles.blog}`}>{blogPreview.name}</h1>
+                <p className={styles.blogDate}>{formatDate(blogPreview.date)}</p>
                 
                 <section className={styles.section}>
                     <p className={styles.paragraph}>

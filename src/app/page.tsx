@@ -2,6 +2,8 @@ import Link from 'next/link';
 import styles from '../app/shared.module.css';
 import homeStyles from './home.module.css';
 import { featuredProjects } from './projects/projectsData';
+import { publishedBlogs } from './blog/publishedBlogs';
+import { formatDate } from '@/DateDisplayService';
 
 export default function Home() {
   return (
@@ -78,30 +80,32 @@ export default function Home() {
         <section className={styles.section}>
           <h2 className={`${styles.sectionTitle} ${styles.blog}`}>Latest Blog Posts</h2>
           <div className={styles.flexColumn}>
-            <div className={styles.card}>
-              <h3 className={styles.cardTitle}>Team Names Are Like Stock Tickers</h3>
-              <p className={styles.blogDate}>March 15, 2025</p>
-              <p className={styles.cardContent}>
-                Exploring how team names in organizations function similarly to stock tickers - they should be
-                memorable,
-                consistent, and represent value changes over time to stakeholders.
-              </p>
-              <Link href="/blog" className={`${styles.button} ${styles.secondaryButton}`}>
-                Read More
-              </Link>
-            </div>
+            {publishedBlogs.length === 0 && <p className={`${styles.blog}`}>--</p>}
+            {publishedBlogs[0] && (
+              <div className={styles.card}>
+                <h3 className={styles.cardTitle}>{publishedBlogs[0].name}</h3>
+                <p className={styles.blogDate}>{formatDate(publishedBlogs[0].date)}</p>
+                <div className={styles.cardContent}>
+                  {publishedBlogs[0].previewParagraph}
+                </div>
+                <Link href="/blog" className={`${styles.button} ${styles.secondaryButton}`}>
+                  Read More
+                </Link>
+              </div>
+            )}
 
-            <div className={styles.card}>
-              <h3 className={styles.cardTitle}>The Benefits of Pair Programming</h3>
-              <p className={styles.blogDate}>February 28, 2025</p>
-              <p className={styles.cardContent}>
-                Reflecting on my experiences with pair programming and how it has improved code quality,
-                knowledge sharing, and team collaboration in my projects.
-              </p>
-              <Link href="/blog" className={`${styles.button} ${styles.secondaryButton}`}>
-                Read More
-              </Link>
-            </div>
+            {publishedBlogs[1] && (
+              <div className={styles.card}>
+                <h3 className={styles.cardTitle}>{publishedBlogs[1].name}</h3>
+                <p className={styles.blogDate}>{formatDate(publishedBlogs[1].date)}</p>
+                <div className={styles.cardContent}>
+                  {publishedBlogs[1].previewParagraph}
+                </div>
+                <Link href="/blog" className={`${styles.button} ${styles.secondaryButton}`}>
+                  Read More
+                </Link>
+              </div>
+            )}
           </div>
         </section>
       </main>
