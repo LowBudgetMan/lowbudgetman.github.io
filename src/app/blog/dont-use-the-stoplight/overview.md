@@ -1,0 +1,1 @@
+Blog post about how instead of using the red-yellow-green stoplight to show team health, you should instead return at a minimum burndown charts
