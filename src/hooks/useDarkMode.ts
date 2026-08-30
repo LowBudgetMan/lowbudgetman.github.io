@@ -1,27 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+
+const COLOR_SCHEME_QUERY = '(prefers-color-scheme: dark)';
+
+function subscribe(onChange: () => void) {
+    const mediaQuery = window.matchMedia(COLOR_SCHEME_QUERY);
+    mediaQuery.addEventListener('change', onChange);
+    return () => mediaQuery.removeEventListener('change', onChange);
+}
+
+function getSnapshot() {
+    return window.matchMedia(COLOR_SCHEME_QUERY).matches;
+}
+
+// The site is statically exported, so there is no dark mode signal at build
+// time; match the previous hook's initial value and let hydration correct it.
+function getServerSnapshot() {
+    return false;
+}
 
 export function useDarkMode() {
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    useEffect(() => {
-        // Check initial color scheme
-        setIsDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
-        
-        // Listen for changes in color scheme
-        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        const handleChange = (e: MediaQueryListEvent) => {
-            setIsDarkMode(e.matches);
-        };
-        
-        mediaQuery.addEventListener('change', handleChange);
-        
-        // Cleanup
-        return () => {
-            mediaQuery.removeEventListener('change', handleChange);
-        };
-    }, []);
-
-    return isDarkMode;
+    return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 }
