@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":"team-names-are-like-stock-tickers","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":96,"c":"$Q2"}]]
-0:{"b":"Q8YyD0ZAOjOgLuslrynR7","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"dULd1xRWo4RPuGBbdXhIk","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
